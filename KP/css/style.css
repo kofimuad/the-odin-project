@@ -1,0 +1,40 @@
+body {
+    background-color: #000; 
+    color: white; 
+    font-size: 18px;
+    font-family: ubuntu;
+}
+
+h1 {
+    color: #ff3300;
+}
+
+h2 {
+    color: darkcyan; 
+}
+
+div {
+    background-color: blue;
+}
+
+span {
+    background-color: white;
+    color: #000;
+}
+
+.top-section {
+    background-color: white;
+    color: #000;
+}
+
+.bottom-section {
+    background-color: #ff3300;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.accent-color {
+    color: #ff3300;
+}
