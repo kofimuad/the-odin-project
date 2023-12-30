@@ -1,8 +1,8 @@
 body {
     background-color: #000; 
-    color: white; 
+    color: whitesmoke; 
     font-size: 18px;
-    font-family: ubuntu;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h2 {
 }
 
 div {
-    background-color: blue;
+    background-color: rgb(11, 91, 165);
 }
 
 span {
@@ -38,3 +38,34 @@ span {
 .accent-color {
     color: #ff3300;
 }
+
+/* this is the CSS box model */ 
+
+/*  There are three differenet parts of the box model
+    -Margin: empty space around element
+    -Border: a stroke around my element
+    -Padding: empty space with background
+
+    All of these add on top of the width and height. 
+
+    Order: Box, Padding, Border and Margin
+*/
+
+.box {
+    background: rgb(172, 35, 214);
+    width: 300px;
+    margin: 20px;
+    
+    border-left-width: 5px;
+    border-left-color: yellow;
+    border-left-style: solid;
+
+    border-right: 5px solid yellow;
+
+    padding: 20px;
+    
+    background-image: url(../img/bleach.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
